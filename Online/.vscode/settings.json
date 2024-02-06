@@ -1,0 +1,5 @@
+{
+    "editor.fontSize": 20,
+    "editor.formatOnSave": true,
+    "markdown.extension.toc.updateOnSave": false
+}
