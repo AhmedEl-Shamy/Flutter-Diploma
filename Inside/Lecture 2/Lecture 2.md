@@ -7,7 +7,7 @@
     - [Increment \& Decrement Operators](#increment--decrement-operators)
     - [Relational Operators](#relational-operators)
     - [Logical Operators](#logical-operators)
-- [Math Library](#math-library)
+- [Math Library](#importing-the-dartmath-library)
   - [Importing the `dart:math` library](#importing-the-math-library)
   - [Basic Mathematical Functions:](#basic-mathematical-functions)
   - [Constants](#constants)
