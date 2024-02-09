@@ -26,7 +26,7 @@ void main() {
   // name = name.substring(0, 6) + name.substring(14);
   // print(name.toUpperCase());
   // print(name.toLowerCase());
-  // trim, trimRight, trimLeft, padRight, padLeft, startWith, startRight
+  // trim, trimRight, trimLeft, padRight, padLeft, startWith, endWith
   // \n => new line, \t => tap (4 spaces), \\ for backslash, \' => ', \" => "
   print("Produt\'s Price: 200\$");
   // print(name.codeUnitAt(5));
