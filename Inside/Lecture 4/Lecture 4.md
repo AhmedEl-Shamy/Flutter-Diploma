@@ -76,7 +76,7 @@ do {
 
 #### Loop Control Statements
 
-1. **`break;`** Terminates the nearest enclosing loop or switch statement.
+1. **`break`** Terminates the nearest enclosing loop or switch statement.
 
 2. **`continue`** Skips the rest of the current iteration of the nearest enclosing loop and starts the next iteration.
 
