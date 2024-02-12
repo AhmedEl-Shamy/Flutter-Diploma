@@ -13,29 +13,10 @@ void main() {
   if (flag && pass.toUpperCase() == pass) flag = false;
 
   if (flag) {
-    int digit = 0;
-    if (pass.contains(digit.toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else if (pass.contains((++digit).toString()))
-      flag = true;
-    else
-      flag = false;
+    for (int i = 0; i <= 9; i++) {
+      flag = pass.contains(i.toString());
+      if (flag) break;
+    }
   }
 
   if (flag)

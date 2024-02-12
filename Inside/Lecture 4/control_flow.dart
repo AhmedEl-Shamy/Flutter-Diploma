@@ -68,22 +68,21 @@ void main() {
   // }
 
   bool flag = false;
+  // DRY ==> Don't Repeat Your self
   do {
     try {
       int n = int.parse(stdin.readLineSync()!);
       for (int i = 0; i <= 12; i++) {
         print('$i * $n = ${i * n}');
       }
-
+    } on FormatException catch (e) {
+      print('Error: Invalid Number!, Try again');
+    } catch (e) {
+      print('Unexpected Error!');
+    } finally{
       stdout.write('Do want to restart program? (y/n):\t');
       String answer = stdin.readLineSync()!;
       flag = (answer == 'y') ? true : false;
-    } on FormatException catch (e) {
-      print('Error: Invalid Number!, Try again');
-      flag = true;
-    } catch (e) {
-      print('Unexpected Error!');
-      flag = true;
     }
   } while (flag);
 }

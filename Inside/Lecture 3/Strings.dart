@@ -34,7 +34,7 @@ void main() {
   // print('replace: ${name.replaceFirst('Ali', 'Ahmed')}'); // 4
   
   String str = 'Hello World!';
-  print(str.substring(5, str.indexOf('r'))); // ' Wo'
+  print(str.substring(5, str.indexOf('r',))); // ' Wo'
   print(str.toUpperCase());
   print(str.toLowerCase());
   //compareTo, trim, padLeft, padRight, startWith, endWith
