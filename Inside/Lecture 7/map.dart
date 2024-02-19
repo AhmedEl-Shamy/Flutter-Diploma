@@ -3,8 +3,7 @@ void main() {
     'Name': 'Mohamed Ahmed',
     'Salary': 12000,
     'Age': 20,
-  };
-
+  }; 
   // print(map['ss']);
   // print(map.length);
   // map.addAll({'birthYear' : 1989});
