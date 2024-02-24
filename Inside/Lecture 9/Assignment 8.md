@@ -7,5 +7,3 @@ By using regular expressions Design a Dart program that can validate phone numbe
 ## Question 2
 
 Write a Dart program that contains a regular expression to identify hexadecimal color codes. Hexadecimal colors are usually represented with a hash symbol followed by six characters (e.g., #FFAABB, #FF259B, #F8F8F8).
-
-
