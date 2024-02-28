@@ -23,7 +23,11 @@ void main() {
   Employee employee = Manager('Mohamed', 45, 'department', 5000);
   // print(human is Employee);
   // // print(human is Human);
+  // Employee employee2 = Employee();
   employee.display();
 
-
+  Human human = Student('', 24, 3);
+  Human human2 = Human('', 24,);
+  print((human2 as Employee).salary);
+  // print(human2.salary);
 }

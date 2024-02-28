@@ -2,9 +2,9 @@ import '../../Online/Lecture 10/student.dart';
 import 'company.dart';
 import 'human.dart';
 
-abstract class Employee {
-  String name;
-  int age;
+ class Employee extends Human {
+  // String name;
+  // int age;
   String department;
   double salary;
   // static late int count;
@@ -14,8 +14,7 @@ abstract class Employee {
   //     : super(name, age) {
   //   counter();
   // }
-
-  Employee(this.name, this.age, this.department, this.salary) {
+  Employee(super.name, super.age, this.department, this.salary) {
     print('I am an employee, and my name is $name');
     // counter();
   }
@@ -28,9 +27,9 @@ abstract class Employee {
   set dept(String dept) => department = dept;
   String get dept => department;
 
-  double calculateNetSalary();
+  double calculateNetSalary() => 0.0;// abstract method
 
-  void display(); // abstract method, virtual method
+  void display() {} // abstract method, virtual method
 
   bool equals(Employee other) {
     return (calculateNetSalary() == other.calculateNetSalary()) &&
@@ -38,7 +37,8 @@ abstract class Employee {
   }
 
   void sayHello() {
-    
+    super.sayHello();
+    print('EMployee');
   }
 }
 //Interface
